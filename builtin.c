@@ -79,9 +79,9 @@ int shellby_exit(char **args, char **front)
 }
 
 /**
- * shellby_cd - Changes the current directory of the shellby process.
- * @args: An array of arguments.
- * @front: A double pointer to the beginning of args.
+ * shellby_cd - changes the current directory of the shellby process.
+ * @args: an array of arguments.
+ * @front: a double pointer to the beginning of args.
  *
  * Return: If the given string is not a directory - 2.
  * 	   If an error occurs - -1.

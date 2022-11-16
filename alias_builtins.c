@@ -55,7 +55,7 @@ int shellby_alias(char **args, char __attribute__((__unused__)) **front)
 
 /**
  * set_alias - Will either set an existing alias 'name' with a new value,
- * value' or creates a new alias with 'name' and 'value'.
+ * value' or create a new alias with 'name' and 'value'.
  * @var_name: Name of the alias.
  * @value: Value of the alias. First character is a '='.
  */
@@ -148,6 +148,5 @@ char **replace_aliases(char **args)
 			temp = temp->next;
 		}
 	}
-
 	return (args);
 }

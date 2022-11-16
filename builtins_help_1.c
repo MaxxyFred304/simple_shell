@@ -7,7 +7,7 @@ void help_exit(void);
 void help_help(void);
 
 /**
- * help_all - Displays all possible builtin shellby commands.
+ * help_all - displays all possible builtin shellby commands.
  */
 void help_all(void)
 {
@@ -29,7 +29,7 @@ void help_all(void)
 }
 
 /**
- * help_alias - Displays information on the shellby builtin command 'alias'.
+ * help_alias -displays information on the shellby builtin command 'alias'.
  */
 void help_alias(void)
 {
@@ -51,7 +51,7 @@ void help_alias(void)
 }
 
 /**
- * help_cd - Displays information on the shellby builtin command 'cd'.
+ * help_cd - displays information on the shellby builtin command 'cd'.
  */
 void help_cd(void)
 {
