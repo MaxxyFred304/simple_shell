@@ -33,7 +33,7 @@ int shellby_env(char **args, char __attribute__((__unused__)) **front)
 }
 
 /**
- * hellby_setenv - changes or adds an environmental variable to the PATH.
+ * shellby_setenv - changes or adds an environmental variable to the PATH.
  * @args: an array of arguments passed to the shell.
  * @front: a double pointer to the beginning of args.
  * Description: args[1] is the name of the new or existing PATH variable.

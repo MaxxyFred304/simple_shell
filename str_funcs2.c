@@ -85,7 +85,7 @@ int _strcmp(char *s1, char *s2)
  *
  * Return: Less than 0 if s1 is shorter than s2.
  *	0 if s1 and s2 match.
- * 	Greater than 0 if s1 is longer than s2.
+ *	Greater than 0 if s1 is longer than s2.
  */
 int _strncmp(const char *s1, const char *s2, size_t n)
 {
