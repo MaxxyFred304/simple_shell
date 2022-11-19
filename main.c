@@ -10,7 +10,7 @@ int execute(char **args, char **front);
 void sig_handler(int sig)
 {
 	char *new_prompt = "\n$ ";
-	
+
 	(void)sig;
 	signal(SIGINT, sig_handler);
 	write(STDIN_FILENO, new_prompt, 3);
@@ -22,7 +22,7 @@ void sig_handler(int sig)
  * @front: A double pointer to the beginning of args.
  *
  * Return: If an error occurs - a corresponding error code.
- * 	   O/w - The exit value of the last executed command.
+ *	O/w - The exit value of the last executed command.
  */
 int execute(char **args, char **front)
 {
@@ -104,7 +104,7 @@ int main(int argc, char *argv[])
 		free_alias_list(aliases);
 		return (*exe_ret);
 	}
-	
+
 	if (!isatty(STDIN_FILENO))
 	{
 		while (ret != END_OF_FILE && ret != EXIT)
@@ -132,4 +132,4 @@ int main(int argc, char *argv[])
 	free_alias_list(aliases);
 	return (*exe_ret);
 }
-	
+
